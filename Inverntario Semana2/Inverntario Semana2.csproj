@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arco.cs" />
+    <Compile Include="ArmaBase.cs" />
+    <Compile Include="Bala.cs" />
+    <Compile Include="Espada.cs" />
+    <Compile Include="Flecha.cs" />
+    <Compile Include="IArmaCuerpoACuerpo.cs" />
+    <Compile Include="IArmaDistancia.cs" />
+    <Compile Include="IProyectil.cs" />
+    <Compile Include="Pistola.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SistemaInventario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
