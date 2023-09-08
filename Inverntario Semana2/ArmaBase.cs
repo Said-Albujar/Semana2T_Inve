@@ -11,8 +11,8 @@ namespace Inverntario_Semana2
         public string Nombre { get; set; }
         public int Daño { get; set; }
         public double VelocidadAtaque { get; set; }
-        public Flecha Flecha { get; internal set; }
-        public Bala Bala { get; internal set; }
+        public Flecha flechas { get; internal set; }
+        public Bala balas { get; internal set; }
 
 
         public double CalcularDañoPorSegundo()

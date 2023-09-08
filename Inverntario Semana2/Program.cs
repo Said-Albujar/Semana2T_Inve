@@ -37,13 +37,13 @@ namespace Inverntario_Semana2
                         else if (armaSeleccionada == 2)
                         {
                             ArmaBase arco = new Arco();
-                            arco.Flecha = new Flecha();
+                            arco.flechas = new Flecha();
                             inventario.AgregarArma(arco);
                         }
                         else if (armaSeleccionada == 3)
                         {
                             ArmaBase pistola = new Pistola();
-                            pistola.Bala = new Bala();
+                            pistola.balas = new Bala();
                             inventario.AgregarArma(pistola);
                         }
                         break;
