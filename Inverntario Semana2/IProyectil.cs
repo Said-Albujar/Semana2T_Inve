@@ -9,6 +9,7 @@ namespace Inverntario_Semana2
     public interface IProyectil
     {
         string Nombre { get; }
+        int Precio { get; }
         int Daño { get; }
     }
 }

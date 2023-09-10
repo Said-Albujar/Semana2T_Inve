@@ -9,6 +9,7 @@ namespace Inverntario_Semana2
     public interface IArmaCuerpoACuerpo
     {
         string Nombre { get; }
+        int Precio { get; }
         int Daño { get; }
         double VelocidadAtaque { get; }
         double CalcularDañoPorSegundo();

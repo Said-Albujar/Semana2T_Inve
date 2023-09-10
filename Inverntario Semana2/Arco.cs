@@ -13,6 +13,7 @@ namespace Inverntario_Semana2
         public Arco()
         {
             Nombre = "Arco";
+            Precio = 200;
             Daño = 15;
             VelocidadAtaque = 15;
         }

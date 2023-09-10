@@ -11,6 +11,7 @@ namespace Inverntario_Semana2
         public Espada()
         {
             Nombre = "Espada";
+            Precio = 300;
             Daño = 30;
             VelocidadAtaque = 25;
         }

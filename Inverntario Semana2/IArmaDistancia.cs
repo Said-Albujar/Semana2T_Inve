@@ -9,6 +9,7 @@ namespace Inverntario_Semana2
     public interface IArmaDistancia
     {
         string Nombre { get; }
+        int Precio { get; }
         int Daño { get; }
         double VelocidadAtaque { get; }
         IProyectil Proyectil { get; }

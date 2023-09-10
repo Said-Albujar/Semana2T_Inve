@@ -9,6 +9,7 @@ namespace Inverntario_Semana2
     public abstract class ArmaBase
     {
         public string Nombre { get; set; }
+        public int Precio { get; set; }
         public int Daño { get; set; }
         public double VelocidadAtaque { get; set; }
         public Flecha flechas { get; internal set; }

@@ -25,7 +25,7 @@ namespace Inverntario_Semana2
             Console.WriteLine("Inventario de armas:");
             foreach (var arma in inventario)
             {
-                Console.WriteLine($"{arma.Nombre} - Daño: {arma.Daño} - Velocidad de ataque {arma.VelocidadAtaque} - Daño por segundo: {arma.CalcularDañoPorSegundo()}");
+                Console.WriteLine($"{arma.Nombre} - Precio: {arma.Precio} - Daño: {arma.Daño} - Velocidad de ataque {arma.VelocidadAtaque} - Daño por segundo: {arma.CalcularDañoPorSegundo()}");
             }
         }
 
